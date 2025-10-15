@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-section {
+    width: 100%;
+}
+
+.upper-nav {
+    background: rgba(0, 0, 0, 0.8);
+
+}
+
+.upper-nav ul {
+    width: 90vw;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.upper-nav ul li {
+    color: rgba(255, 255, 255, 1);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#Search-icon {
+    filter: invert(1);
+    width: 14px;
+    height: 44px;
+}
+
+.lower-nav {
+    display: flex;
+    width: 90vw;
+    margin: 0px auto;
+    justify-content: space-between;
+
+}
+
+.nav-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-Container h5 {
+    color: rgba(191, 72, 0, 1);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: -0.08px;
+
+}
+
+/* end og nav */
+.hero-section {
+    width: 90vw;
+    margin: 0px auto;
+
+}
+
+.hero-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin-top: 113px;
+
+
+}
+
+.new {
+    color: rgba(110, 110, 115, 1);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.37px;
+
+}
+
+.hero-Big {
+    background-image: linear-gradient(90deg,
+            rgba(44, 162, 180, 1) 0%,
+            rgba(85, 152, 222, 1) 24%,
+            rgba(127, 135, 255, 1) 45%,
+            rgba(246, 90, 173, 1) 76%,
+            rgba(236, 61, 67, 1) 100%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52.01px;
+    letter-spacing: -0.14px;
+}
+
+.hero-BL {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.buybtn {
+    border-radius: 980px;
+    background: rgba(0, 113, 227, 1);
+    width: 61.2px;
+    height: 36px;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Separator {
+    width: 100%;
+    height: 10px;
+    background: rgba(245, 245, 247, 1);
+}
+
+.full-width.dark {
+    background: rgba(0, 0, 0, 1);
+}
+
+.second-Hero-section {
+    width: 90vw;
+
+    margin: 0px auto;
+}
+
+.second-Hero-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding-top: 113px;
+}
+
+.second-Hero-Big {
+    background-image: linear-gradient(180deg,
+            rgba(255, 182, 255, 1),
+            rgba(179, 68, 255, 1) 100%);
+
+    -webkit-background-clip:
+        text;
+    -webkit-text-fill-color:
+        transparent;
+    background-clip:
+        text;
+
+
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52.01px;
+    letter-spacing: -0.14px;
+
+}
+
+.second-Hero-product-name {
+    color: rgba(255, 255, 255, 1);
+}
+
+a {
+    color: rgba(0, 113, 227, 1);
+    text-decoration: none;
+}
+
+.IphoneSE-section {
+    width: 85vw;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-SE {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.Third-Hero-Big {
+    background-image: linear-gradient(90.00deg,
+            rgba(30, 55, 145, 1),
+            rgba(41, 72, 177, 1) 40%,
+            rgba(49, 83, 198, 1) 55%,
+            rgba(56, 95, 218, 1) 60%);
+    -webkit-background-clip:
+        text;
+    -webkit-text-fill-color:
+        transparent;
+    background-clip:
+        text;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52.01px;
+    letter-spacing: -0.14px;
+
+}
+
+.Blue-Guy {
+    background-image: url(./Assets/images/BlueGuy.png);
+ width:95vw;
+ height: 814px;
+ margin: 0px auto;
+   
+}
+.BlueGuy-info{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.BlueGuy-info h3{
+    color: rgba(255, 255, 255, 1);
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0.22px;
+
+}
+.BlueGuy-info h2{
+    color: rgba(255, 255, 255, 1);
+font-size: 48px;
+font-weight: 700;
+line-height: 52.01px;
+letter-spacing: -0.14px;
+
+}
+.filmbtn{
+   border-radius: 980px;
+background: rgba(255, 255, 255, 1);
+    width: 141.2px;
+    height: 36px; 
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+}
+.Content-section{
+    width:80vw;
+    margin: 0px auto;
+    background-color: rgba(255, 255, 255, 1);
+}
+.WhichIphone{
+    color: rgba(29, 29, 31, 1);
+font-size: 48px;
+font-weight: 700;
+line-height: 52.01px;
+letter-spacing: -0.14px;
+text-align: center;
+margin-top: 40px;
+margin-bottom: 20px;
+}
+.Content-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+.Content-grid ul{        
+list-style: none;
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+.Content-grid ul li{        
+display: flex;
+flex-direction: column;
+
+justify-content: center;
+align-items: center;
+}
+.main-content-info{
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(110, 110, 115, 1);;
+}
+.content-buy{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.content-color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.color-circle{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+}
+.color-circle.Red{
+    background: red;
+}
+.color-circle.Black{
+    background: black;
+}
+.color-circle.Grey{
+    background: grey;
+}
+.content-link{
+    text-align: center;
+   margin-top: 40px;
+   
+}
+.content-link a{
+  display: inline-block;
+  margin: 10px 20px;
+}
+.content-highlight{
+    color: rgba(29, 29, 31, 1);
+font-size: 17px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: -0.37px;
+
+}
+.size-inch{
+    font-weight: bold;
+}
+.redbini-section{
+    width: 90vw;
+    margin: 40px auto;
+    background-color: rgba(1, 1, 42, 1);
+    display: flex;
+   justify-content:space-between;
+   align-items: center;
+}
+.redbini-left{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.redbini-left h2{
+ color: rgba(255, 255, 255, 1);
+font-size: 90px;
+font-weight: 700;
+line-height: 100.01px;
+letter-spacing: -0.27px;
+}
+.redbini-right{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.Way-to-Buy{
+      width: 90vw;
+      margin: 0px auto;
+}
+
+.WTB-headline{
+    color: rgba(29, 29, 31, 1);
+font-size: 56px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: -0.28px;
+text-align: center;
+}
+.WTB-grid{
+    display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 700px 750px 560px;
+}
+.Way-1{
+    grid-column: 1/3;
+}
+
+.Way-4{
+  grid-column: 1 / 3; /* spans both columns */
+  grid-row: 3;
+background-image: url(Assets/images/ICenter.png);
+}
