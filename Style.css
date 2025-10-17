@@ -6,7 +6,8 @@
 body {
     background-color: #f5f5f7;
 }
-header{
+
+header {
     background-color: white;
 }
 
@@ -189,6 +190,7 @@ a {
     margin: 0px auto;
     display: flex;
     justify-content: space-around;
+    background-color: white;
 }
 
 .left-SE {
@@ -424,14 +426,15 @@ a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto 560px;
-
-    
     gap: 20px;
     border-radius: 10px;
 }
-.w{
+
+.w {
     background-color: white;
+    border-radius: 10px;
 }
+
 .Way-1 {
     grid-column: 1/3;
     display: flex;
@@ -439,6 +442,8 @@ a {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .Way-1 p {
@@ -447,7 +452,6 @@ a {
     font-weight: 700;
     line-height: 28px;
     letter-spacing: 0.22px;
-
 }
 
 .Way-1 h2 {
@@ -465,7 +469,6 @@ a {
     align-items: center;
     gap: 40px;
     ;
-
 }
 
 .way-1-card {
@@ -483,25 +486,451 @@ a {
     letter-spacing: 0.23px;
     text-align: center;
 }
-.fbtn{
-     background: rgba(0, 113, 227, 1);
+
+.fbtn {
+    background: rgba(0, 113, 227, 1);
     color: rgba(255, 255, 255, 1);
     border: none;
 }
 
+.Way-2-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+}
 
+.way-2-3-headline {
+    color: rgba(29, 29, 31, 1);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52.01px;
+    letter-spacing: -0.14px;
+    text-align: center;
+}
 
+.Way-2-3 p {
+    color: rgba(29, 29, 31, 1);
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.23px;
+    text-align: center;
+    padding: 0px 50px;
+    /* this padding stop working when i give 100% width to img */
+}
+
+.way-2-3-img img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
 
 .Way-4 {
     grid-column: 1 / 3;
-     
     grid-row: 3;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-image: url(Assets/images/ICenter.png);
 }
 
-/* .Way-4 {
-    grid-column: 1 / 3;
-    aspect-ratio: 16 / 9;
-    background: url(Assets/images/ICenter.png) center / cover no-repeat;
+.way4-content {
+    width: 40%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+    top: 60px;
+}
+
+.way4-content p {
+    color: rgba(29, 29, 31, 1);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.23px;
+    text-align: center;
+}
+
+.accessories-section {
+    width: 90vw;
+    margin: 0px auto;
+
+}
+
+.accessories-headline {
+    color: rgba(29, 29, 31, 1);
+
+
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.28px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.accessories-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+
+}
+
+acc.img img {
+    width: 60%;
+    height: auto;
+
+}
+
+.acc-1-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.accessories-card {
     border-radius: 10px;
-} */
+}
+
+.acc-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+    gap: 10px;
+}
+
+.acc-text h3 {
+    color: rgba(29, 29, 31, 1);
+
+
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52.01px;
+    letter-spacing: -0.14px;
+    text-align: center;
+}
+
+.acc-text p {
+    color: rgba(29, 29, 31, 1);
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.23px;
+    text-align: center;
+}
+
+.acc-link {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.acc-3 {
+    background: white;
+}
+
+.acc-3-img img {
+    width: 100%;
+}
+
+.acc-3-headline {
+    color: rgba(29, 29, 31, 1);
+
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52.01px;
+    letter-spacing: -0.14px;
+    text-align: center;
+}
+
+.accessories {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.22px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.card-IpanIP-section {
+    width: 90vw;
+    margin: 0px auto;
+}
+
+.delivery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.delivery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.bold-delivery {
+    color: rgba(29, 29, 31, 1);
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0.23px;
+    text-align: center;
+}
+
+.para-delivery {
+    color: rgba(29, 29, 31, 1);
+
+
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.23px;
+    text-align: center;
+}
+
+.Whats-Make-headline {
+    color: rgba(29, 29, 31, 1);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.28px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.WM-big-banner img {
+    width: 100%;
+
+
+}
+
+.WM-small-banner {
+    width: 50%;
+    margin: 0px auto;
+    background-color: white;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+.banner-info h3 {
+    color: rgba(29, 29, 31, 1);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52.01px;
+    letter-spacing: -0.14px;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.banner-info a {
+    display: block;
+    text-align: center;
+
+    padding: 20px 0px;
+}
+
+.Get-more-section {
+    width: 90vw;
+    margin: 0px auto;
+}
+
+.Get-more-section h2 {
+
+    color: rgba(29, 29, 31, 1);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.28px;
+    text-align: center;
+
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.get-more-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto 560px;
+
+
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.get-more-card-container-long {
+    grid-column: 1/3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.get-more-card-1-img {
+    width: 50%;
+}
+
+.get-more-card-1-img img {
+    width: 100%;
+}
+
+.get-more-card-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-more-card-container-middle {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.get-more-card-Middle-img {
+    width: 100%;
+}
+
+.get-more-card-Middle-img img {
+    width: 100%;
+}
+
+.get-more-headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.get-more-headline span {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.GT-line {
+    color: rgba(29, 29, 31, 1);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52.01px;
+    letter-spacing: -0.14px;
+
+}
+
+.get-more-para {
+    color: rgba(29, 29, 31, 1);
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.23px;
+    text-align: center;
+}
+
+.get-more-link {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.study-info h3 {
+    color: rgba(29, 29, 31, 1);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52.01px;
+    letter-spacing: -0.14px;
+}
+
+.GT-logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.useless-info {
+    width: 70vw;
+    margin: 50px auto;
+
+}
+
+.useless-info p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.big-one {
+    font-size: 82px;
+    font-weight: 900;
+}
+
+.footer {
+    width: 70vw;
+    margin: 50px auto;
+    margin-bottom: 20px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+.footer-column{
+     display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.footer-column ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-column ul li a {
+    color: black;
+}
+.footer-bottom{
+    margin-top: 40px;
+}
+.for-a-line{
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.last-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
