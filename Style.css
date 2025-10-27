@@ -44,6 +44,11 @@ header {
     height: 44px;
 }
 
+.upper-nav ul li.hamburger{
+    display: none;
+}
+
+
 .lower-nav {
     display: flex;
     width: 90vw;
@@ -941,6 +946,25 @@ a {
 }
 
 @media screen and (max-width: 1000px){
+
+    .upper-nav ul li.hamburger{
+    display: block;
+}
+.upper-nav ul li.just-words{
+    display: none;
+}
+
+.upper-nav ul {
+    width: 50%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    position: relative;
+
+}
+
     .lower-nav{
      display: flex;
      flex-wrap: wrap;
