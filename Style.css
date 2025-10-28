@@ -49,7 +49,7 @@ header {
 }
 
 
-.lower-nav {
+/* .lower-nav {
     display: flex;
     width: 90vw;
     margin: 0px auto;
@@ -61,6 +61,26 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+} */
+.lower-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  overflow: hidden; /* hide scroll on desktop */
+  scroll-behavior: smooth;
+  width: 90vw; /* your original width */
+  margin: 0 auto;
+}
+
+.nav-Container {
+  flex: 0 0 auto;
+  text-align: center;
+}
+
+.lower-nav img {
+  width: 40px;
+  height: 40px;
 }
 
 .nav-Container h5 {
@@ -296,16 +316,28 @@ a {
 
 .Content-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+      grid-auto-flow: column;           /* Lay cards side by side horizontally */
+  grid-auto-columns: 300px; 
+    overflow: hidden; /* hide scroll on desktop */
+  scroll-behavior: smooth;
+   overflow-x: auto; /* allow scroll/swipe */
+    scrollbar-width: none; /* hide scrollbar (Firefox) */
+     scroll-snap-type: x mandatory;
 
 }
-
+.Content-grid::-webkit-scrollbar {
+     display: none; /* hide scrollbar (Chrome/Safari)  */
+  }  
+/* ---------------------------------------------------------------------------------------- */
 .Content-grid ul {
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 30px;
+      scroll-snap-align: start;
+      flex-shrink: 0;  
 }
+ 
 
 .Content-grid ul li {
     display: flex;
@@ -945,6 +977,22 @@ a {
     
 }
 
+@media screen and (max-width: 1380px) {
+  .lower-nav {
+    justify-content: flex-start;
+    overflow-x: auto; /* allow scroll/swipe */
+    scrollbar-width: none; /* hide scrollbar (Firefox) */
+     scroll-snap-type: x mandatory;  
+}
+
+    .lower-nav::-webkit-scrollbar {
+     display: none; /* hide scrollbar (Chrome/Safari)  */
+  }  
+  .nav-Container {
+  scroll-snap-align: start;
+}
+} 
+
 @media screen and (max-width: 1000px){
 
     .upper-nav ul li.hamburger{
@@ -965,10 +1013,10 @@ a {
 
 }
 
-    .lower-nav{
+    /* .lower-nav{
      display: flex;
      flex-wrap: wrap;
-    }
+    } */
     .hero-image{
         width: 100%;
     }
