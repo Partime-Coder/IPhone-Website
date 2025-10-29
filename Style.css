@@ -1213,3 +1213,8 @@ a {
         flex-shrink: 0;
     }
 }
+@media screen and (max-width: 500px){
+    .BW{
+        font-size: 32px !important;
+    }
+} 
