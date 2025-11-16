@@ -1140,6 +1140,12 @@ a {
     .Way-4 {
         padding: 20px;
     }
+    
+    .Way-2-3
+   {  grid-column: auto;
+        grid-row: auto;
+        
+    }
 
     .way4-content {
         width: 50%;
@@ -1216,5 +1222,13 @@ a {
 @media screen and (max-width: 500px){
     .BW{
         font-size: 32px !important;
+    }
+    .Way-4{
+        display: none;
+    }
+    .way-2-3-headline{
+        font-size: 24px;
+        position: relative;
+        top: 30px;
     }
 } 
